@@ -1,0 +1,30 @@
+doctype
+html
+	head
+		title COMPDES 2016
+		meta(charset="UTF-8")
+		link(rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" )
+		link(rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Montserrat')
+		link(rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css?family=Lato:400,300,700')
+		link(rel='stylesheet' href="css/main.css")
+	body
+		div(class="center-block col-md-7 no-float vino center monserrat")
+			h1(class="rasp") Introducción a Raspberry Pi #[img(class="" src="raspberry.png")]
+			h1 Iván Calvo Pérez
+			h1 Anthony Alfaro Sibaja
+			h1(class="top-space") Usuarios Registrados
+		
+		div(class="container")
+			table(class="table table-bordered")
+				thead
+					tr
+						th Nombre
+						th Email
+						th Código RFID
+					tbody
+						//each user in users y se identa
+						tr
+							td Iván
+							//td= user.name
+							td ivanfelipecp@gmail.com
+							td 232321212121331

@@ -1,0 +1,59 @@
+body{
+  height: 100%;
+  font-family: 'Lato', sans-serif;
+}
+
+img{
+	max-width: 10%;
+}
+
+.monserrat{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.lato{
+	font-family: 'Lato', sans-serif;
+}
+
+.no-float{
+  float: none !important;
+}
+
+.big{
+	font-size: 4em;
+}
+
+.small{
+	font-size: 12px;
+}
+
+.rasp{
+	color: #C7053D;
+}
+
+.top-space{
+  margin-top: 100px;
+}
+
+.vino{
+  color: #671432;
+}
+
+.inline-block{
+	float: none;
+	display: inline-block;
+	margin-right: -4px;
+}
+
+.inline{
+  display: inline;
+}
+
+.justificar{
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.center{
+  text-align: center;
+}
